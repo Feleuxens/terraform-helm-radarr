@@ -1,6 +1,0 @@
-resources:
-  requests:
-    cpu: ${cpu_request}
-    memory: ${memory_request}
-  limits:
-    memory: ${memory_limit}
