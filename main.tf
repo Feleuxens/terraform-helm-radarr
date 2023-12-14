@@ -3,7 +3,7 @@ resource "helm_release" "radarr" {
 
   repository       = "https://helm.feleuxens.de"
   chart            = "radarr"
-  version          = "0.1.0"
+  version          = "0.1.1"
   create_namespace = true
   namespace        = "radarr"
 
